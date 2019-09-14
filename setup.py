@@ -12,7 +12,7 @@ setup(
   author = 'Iain Wong',
   author_email = 'iainwong@outlook.com',
   url = 'https://github.com/iainwo/fmpclient',
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/iainwo/fmpclient/archive/v0.1.tar.gz',
   keywords = ['investing', 'finance', 'api', 'valuation', 'wrapper', 'client'],
   install_requires=[            
           'requests'
