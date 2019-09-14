@@ -30,6 +30,8 @@ To query the FinancialModellingPrep (FMP) API you can construct the API client a
 ```python
 from fmpclient import FMPClient
 api = FMPClient()
+
+tickers=['GOOG']
 api.company_valuation.income_statement(tickers)
 ```
 
