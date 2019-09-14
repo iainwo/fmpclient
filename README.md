@@ -18,6 +18,7 @@ TODO
 ## Importing the Module
 To import the module:
 ```python
+import fmpclient
 ```
 
 Alternatively you can just import the class:
