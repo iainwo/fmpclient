@@ -1,14 +1,22 @@
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
+import pathlib
+from setuptools import setup
+
+# The directory containing this file
+HERE = pathlib.Path(__file__).parent
+
+# The text of the files
+README = (HERE / "README.md").read_text()
+LICENSE = (HERE / "LICENSE.txt").read_text()
 
 setup(
   name = 'fmpclient',
   packages = ['fmpclient'],
+  include_package_data=True,
   version = '0.1',
-  license='MIT',
+  license='MIT License',
   description = 'A FinancialModellingPrep API wrapper.',
+  long_description_content_type="text/markdown",
+  long_description=README,
   author = 'Iain Wong',
   author_email = 'iainwong@outlook.com',
   url = 'https://github.com/iainwo/fmpclient',
