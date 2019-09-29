@@ -1,5 +1,6 @@
 # fmpclient
 A FinancialModellingPrep API wrapper.
+FMPClient supports the `Company Valuation`, `Stock Time Series`, `Stock Market`, `Cryptocurrencies` and `Forex` APIs.
 
 ## Requirements
 Python 3 is supported for this binding.
