@@ -9,7 +9,7 @@ An API wrapper for FinancialModellingPrep.
 """
 
 __title__ = 'fmpclient'
-__version__ = '0.1.0'
+__version__ = '0.1.3'
 __author__ = 'Iain Wong'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2019 Iain Wong'

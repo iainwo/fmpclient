@@ -12,7 +12,7 @@ setup(
   name = 'fmpclient',
   packages = ['fmpclient'],
   include_package_data=True,
-  version = '0.1.2',
+  version = '0.1.3',
   license='MIT License',
   description = 'A FinancialModellingPrep API wrapper.',
   long_description_content_type="text/markdown",
@@ -20,7 +20,7 @@ setup(
   author = 'Iain Wong',
   author_email = 'iainwong@outlook.com',
   url = 'https://github.com/iainwo/fmpclient',
-  download_url = 'https://github.com/iainwo/fmpclient/archive/v0.1.2.tar.gz',
+  download_url = 'https://github.com/iainwo/fmpclient/archive/v0.1.3.tar.gz',
   keywords = ['investing', 'finance', 'api', 'valuation', 'wrapper', 'client'],
   install_requires=[            
           'requests'
