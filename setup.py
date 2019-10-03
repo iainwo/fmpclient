@@ -6,7 +6,7 @@ HERE = pathlib.Path(__file__).parent
 
 # The text of the files
 README = (HERE / "README.md").read_text()
-LICENSE = (HERE / "LICENSE.txt").read_text()
+#LICENSE = (HERE / "LICENSE.txt").read_text()
 
 setup(
   name = 'fmpclient',
